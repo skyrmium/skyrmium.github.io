@@ -1,0 +1,304 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software Development">
+    <meta name="author" content="Skyrmium">
+    <title>Skyrmium | Connecting Software as Particles</title>
+    <link rel="icon" type="image/png" href="img/icons/favicon.png" />
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" />
+    <!-- Squad theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="color/default.css" rel="stylesheet">
+    <link href="css/languages.min.css" rel="stylesheet">
+    <link href="css/toastr.min.css" rel="stylesheet">
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-72312387-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="load"></div>
+    </div>
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <div id="imglogo"></div>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#intro" data-i18n="nav.home"></a></li>
+                    <li><a href="#about" data-i18n="nav.about"></a></li>
+                    <li><a href="#service" data-i18n="nav.services"></a></li>
+                    <li><a href="#contact" data-i18n="nav.contact"></a></li>
+                    <li class="btn-group dropdown">
+                        <a class="btn dropdown-toggle" data-toggle="dropdown">
+                            <span id="currentlang" class="lang-sm lang-lbl" lang="en"></span> <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li class="lang-item-option"><span class="lang-sm lang-lbl" lang="en"></span></li>
+                            <li class="lang-item-option"><span class="lang-sm lang-lbl" lang="es"></span></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Section: intro -->
+    <section id="intro" class="intro">
+        <div id="introbackground"></div>
+        <div class="slogan">
+            <h2 id="maintitle"><span class="text_color">SKYRMIUM</span> </h2>
+            <h4>Connecting software as particles</h4>
+        </div>
+        <div class="page-scroll">
+            <a href="#service" class="btn btn-circle">
+                <i class="fa fa-angle-double-down animated"></i>
+            </a>
+        </div>
+    </section>
+    <!-- /Section: intro -->
+    <!-- Section: about -->
+    <section id="about" class="home-section text-center">
+        <div class="heading-about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="wow bounceInDown" data-wow-delay="0.4s">
+                            <div class="section-heading">
+                                <h2 data-i18n="sections.about.title"></h2>
+                                <i class="fa fa-2x fa-angle-down"></i>
+                            </div>
+                            <p data-i18n="sections.about.desc"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-2 col-lg-offset-5">
+                    <hr class="marginbot-50">
+                </div>
+            </div>
+
+            <div class="row">
+
+
+            </div>
+        </div>
+    </section>
+    <!-- /Section: about -->
+    <!-- Section: services -->
+    <section id="service" class="home-section text-center bg-gray">
+        <div class="heading-about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="wow bounceInDown" data-wow-delay="0.4s">
+                            <div class="section-heading">
+                                <h2 data-i18n="sections.services.title"></h2>
+                                <i class="fa fa-2x fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-2 col-lg-offset-5">
+                    <hr class="marginbot-50">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3 col-md-3">
+                    <div class="wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="service-box">
+                            <div class="service-icon"><i class="fa fa-cogs fa-4x"></i></div>
+                            <div class="service-desc">
+                                <h5 data-i18n="sections.services.development.title"></h5>
+                                <p data-i18n="sections.services.development.desc"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3">
+                    <div class="wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="service-box">
+                            <div class="service-icon"><i class="fa fa-cubes fa-4x"></i></div>
+                            <div class="service-desc">
+                                <h5 data-i18n="sections.services.automanageable.title"></h5>
+                                <p data-i18n="sections.services.automanageable.desc"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3">
+                    <div class="wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-box">
+                            <div class="service-icon"><i class="fa fa-desktop fa-4x"></i></div>
+                            <div class="service-desc">
+                                <h5 data-i18n="sections.services.webdesign.title"></h5>
+                                <p data-i18n="sections.services.webdesign.desc"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3">
+                    <div class="wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-box">
+                            <div class="service-icon"><i class="fa fa-line-chart fa-4x"></i></div>
+                            <div class="service-desc">
+                                <h5 data-i18n="sections.services.consultancy.title"></h5>
+                                <p data-i18n="sections.services.consultancy.desc"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- /Section: services -->
+    <!-- Section: contact -->
+    <section id="contact" class="home-section text-center">
+
+        <div class="heading-contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="wow bounceInDown" data-wow-delay="0.4s">
+                            <div class="section-heading">
+                                <h2 data-i18n="sections.contact.title"></h2>
+                                <i class="fa fa-2x fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-lg-offset-5">
+                    <hr class="marginbot-50">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="boxed-grey">
+                        <form id="contact-form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name" data-i18n="sections.contact.name"></label>
+                                        <input type="text" class="form-control" name="name" id="name" data-i18n="[placeholder]sections.contact.enterName" required="required" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email" data-i18n="sections.contact.email"></label>
+                                        <div class="input-group">
+                                            <span class="input-group-addon">
+                                                <span class="glyphicon glyphicon-envelope"></span>
+                                            </span>
+                                            <input type="email" class="form-control" id="email" name="email" data-i18n="[placeholder]sections.contact.enterEmail" required="required" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="subject" data-i18n="sections.contact.subject"></label>
+                                        <select id="subject" name="subject" class="form-control" required="required">
+                                            <option value="na" selected="" data-i18n="sections.contact.chooseone"></option>
+                                            <option value="service" data-i18n="sections.contact.service"></option>
+                                            <option value="suggestions" data-i18n="sections.contact.suggestions"></option>
+                                            <option value="product" data-i18n="sections.contact.product"></option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name" data-i18n="sections.contact.message"></label>
+                                        <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                                  data-i18n="[placeholder]sections.contact.enterMessage"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="submit" name="contactUs" class="btn btn-skin pull-right" id="btnContactUs" data-i18n="sections.contact.sendmessage"></button>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+				<!--
+                <div class="col-lg-4">
+                    <div class="widget-contact">
+                        <address>
+                            <strong data-i18n="social"></strong><br>
+                            <ul class="company-social">
+                                <li class="social-facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li class="social-twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li class="social-google"><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </address>
+                    </div>
+                </div>
+				-->
+            </div>
+
+    </section>
+    <!-- /Section: contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <div class="wow shake" data-wow-delay="0.4s">
+                        <div class="page-scroll marginbot-30">
+                            <a href="#intro" id="totop" class="btn btn-circle">
+                                <i class="fa fa-angle-double-up animated"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p data-i18n="footer.copyright"></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Core JavaScript Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/i18next-1.11.1.min.js"></script>
+    <script src="js/toastr.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.js"></script>
+</body>
+</html>

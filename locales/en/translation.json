@@ -1,0 +1,63 @@
+{
+	"nav": 
+	{ 
+		"home": "Home",
+		"about": "about",
+		"services": "Services",
+		"contact": "Contact"
+	},
+	"sections":
+	{
+		"about": 
+		{ 
+			"title": "About us",
+			"desc": "We are a proactive team with strategists, designers, and engineers which collaborate with you to solve your business issues using the creativeness, the design and technology to find the best solution that fits with your business."
+		},
+		"services": 
+		{ 
+			"title": "Our Services",
+			"development":
+			{
+				"title": "Software development",
+				"desc": "We take you where you need a maximum of efficiency and effectiveness, using the latest technologies and methodologies in software material."
+			},
+			"automanageable":
+			{
+				"title": "Auto-manageable web sites",
+				"desc": "We develop web sites where you can update all the content, including text, images, prices, articles and more. "
+			},
+			"consultancy":
+			{
+				"title": "Consultancy",
+				"desc": "Systems analysis and business process optimization."
+			},
+			"webdesign":
+			{
+				"title": "Web Design",
+				"desc": "We can create beautiful applications which you can use easily."
+			}
+		},
+		"contact":
+		{
+			"title": "Contact Us",
+			"name": "Name",
+			"email": "Email Address",
+			"subject": "Subject",
+			"chooseone": "Choose One:",
+			"service": "General Customer Service",
+			"suggestions": "Suggestions",
+			"product": "Product Support",
+			"message": "Message",
+			"sendmessage": "Send",
+			"enterName": "Enter name",
+			"enterEmail": "Enter email address",
+			"enterMessage": "Enter message",
+			"sendMessageSuccess": "Thanks for contacting us, we will get in touch with you shortly."
+		}
+	},
+	"social": "We're on social networks",
+	"footer":
+	{
+		"copyright": "® Copyright 2019 - Skyrmium. All rights reserved."
+	}
+}

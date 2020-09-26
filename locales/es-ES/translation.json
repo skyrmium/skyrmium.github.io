@@ -1,0 +1,63 @@
+{
+	"nav": 
+	{ 
+		"home": "Inicio",
+		"about": "Nosotros",
+		"services": "Servicios",
+		"contact": "Contacto"
+	},
+	"sections":
+	{
+		"about": 
+		{ 
+			"title": "Nosotros",
+			"desc": "Somos un equipo proactivo de ingenieros en sistemas y diseñadores que colaboran con usted a fin de encontrar la mejor solución a sus necesidades de negocio, utilizando la creatividad, el diseño y la tecnología."
+		},
+		"services": 
+		{ 
+			"title": "Nuestros Servicios",
+			"development":
+			{
+				"title": "Desarrollo de Software",
+				"desc": "Llevamos lo que ud. necesita al máximo de eficiencia y efectividad, utilizando las últimas tecnologías y metodologías en materia de software."
+			},
+			"automanageable":
+			{
+				"title": "Sitios web autoadministrables",
+				"desc": "Desarrollamos sitios web donde pueda actualizar de forma facil el contenido. Incluye textos, imagenes, productos, y mucho más."
+			},
+			"consultancy":
+			{
+				"title": "Consultoria",
+				"desc": "Análisis de sistemas y optimización de procesos de negocio."
+			},
+			"webdesign":
+			{
+				"title": "Diseño Web",
+				"desc": "Creamos aplicaciones atractivas que pueden usarse facilmente."
+			}
+		},
+		"contact":
+		{
+			"title": "Contáctenos",
+			"name": "Nombre",
+			"email": "Dirección de Email",
+			"subject": "Asunto",
+			"chooseone": "Seleccione Uno:",
+			"service": "Servicio al Cliente",
+			"suggestions": "Sugerencias",
+			"product": "Soporte de Productos",
+			"message": "Mensaje",
+			"sendmessage": "Enviar",
+			"enterName": "Ingrese Nombre",
+			"enterEmail": "Ingrese correo electrónico",
+			"enterMessage": "Ingrese mensaje",
+			"sendMessageSuccess": "Gracias por contarnos, en breve nos comunicaremos con usted."
+		}
+	},
+	"social": "Estamos en las redes sociales",
+	"footer":
+	{
+		"copyright": "&copy;Copyright 2019 - Skyrmium. Todos los derechos reservados."
+	}
+}
